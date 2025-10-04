@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<h1>Exercici, formulari de registre</h1>
+<form action="/ruta-on-enviar-dades" method="post">
+        
+        <table border="1" cellpadding="5" style="border-collapse: collapse;">
+
+            <tr> <!--tr*"numero">td*"numero"(Comand per fer una taula lateral)-->
+                <td>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom">
+                </td>
+                <td>
+                    <label for="llinatges">Llinatges:</label>
+                    <input type="text" id="llinatges" name="llinatges">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <!--colspan: És un atribut que significa "column span" (expansió de columna). Indica al navegador quantes columnes ha d'ocupar aquesta cel·la.)-->
+                    <label>Home:</label>
+                    <input type="radio" id="home" name="genere" value="home">
+                    
+                    <label>Dona:</label>
+                    <input type="radio" id="dona" name="genere" value="dona">
+                    
+                    <label>Altre:</label>
+                    <input type="radio" id="altre" name="genere" value="altre">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="El teu mail">
+                </td>
+                <td>
+                    <label for="contrasenya">Contrasenya:</label>
+                    <input type="password" id="contrasenya" name="contrasenya">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="data_naixament">Data de Naixament:</label>
+                    <input type="text" id="data_naixament" name="data_naixament" placeholder="dd/mm/aaaa">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="termes">Esti d'acord amb els termes i condicions</label>
+                    <input type="checkbox" id="termes" name="termes">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+        </form>
+
+</body>
+</html>
