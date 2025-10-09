@@ -1,0 +1,37 @@
+body{ text-align: center;
+    background-color: blueviolet;
+}
+
+th{
+    background-color: brown;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border: 4px solid white;
+    height: 300px;
+}
+
+h1{
+    color: azure;}
+
+.hora{
+    background-color: yellow;
+}
+    
+
+  
+
+.Matemàtiques{
+    background-color: coral;
+}
+.Catalá{
+    background-color: darkgreen;
+}
+
+    .Pati{
+        background-color: white;
+    }
+  
