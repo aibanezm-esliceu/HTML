@@ -1,5 +1,9 @@
 body{ text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(197, 175, 218);
+     font-family: "Caveat Brush", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
 }
 
 th{
@@ -28,10 +32,53 @@ h1{
     background-color: coral;
 }
 .Catalá{
-    background-color: darkgreen;
+    background-color:   green;
 }
 
     .Pati{
         background-color: white;
     }
   
+.Naturals{
+    background-color: chartreuse;
+}
+
+.Socials{
+    background-color: crimson;
+}
+
+.Ángles{
+    background-color: rgb(40, 230, 183);
+}
+
+.Música{
+    background-color: orange;
+}
+
+.EducacióFísica{
+    background-color: khaki;
+}
+
+.Castellá{
+    background-color: lightgoldenrodyellow;
+}
+
+.Informática{
+    background-color: honeydew;
+}
+
+.Professors{
+    background-color: rgb(201, 49, 32);
+}
+.Assignatura{
+    background-color: rgb(199, 20, 169);
+}
+.Llegenda{
+    background-color: rgb(75, 167, 0);
+}
+.Profesor{
+    background-color: darkgoldenrod;
+}
+.Asignatura{
+    background-color: rgb(236, 164, 9);
+}
